@@ -7,8 +7,8 @@ env/
 
 # --- Datos y Modelos Pesados ---
 data/
-*.pth
-*.ptl
+# *.pth
+# *.ptl
 *.jpg
 *.png
 metadata.csv
