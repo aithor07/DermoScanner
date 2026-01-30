@@ -19,8 +19,8 @@ model = models.mobilenet_v2(weights=None)
 # MobileNetV2 original tiene 1280 entradas en la ultima capa
 model.classifier[1] = nn.Linear(in_features=1280, out_features=2)
 
-# C. Cargamos tus pesos entrenados
-# map_location='cpu' asegura que funcione aunque lo hayas entrenado en GPU
+# C. Cargamos los pesos entrenados
+# map_location='cpu' asegura que funcione aunque se haya entrenado en GPU
 try:
     model.load_state_dict(torch.load("modelo_melanoma.pth", map_location=torch.device('cpu')))
     print("Pesos 'modelo_melanoma.pth' cargados correctamente.")
