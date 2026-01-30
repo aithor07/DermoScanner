@@ -1,5 +1,3 @@
-Aquí tienes el archivo `README.md` completo y corregido. Solo tienes que hacer clic en el botón de copiar y pegarlo en tu repositorio.
-
 ```markdown
 # DermaScan AI: Sistema de Detección de Melanoma mediante Deep Learning
 
